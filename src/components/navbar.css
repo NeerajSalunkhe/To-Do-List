@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: rgb(155, 88, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 23px;
+}
+.rightnav{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    font-size: 30px;
+    height: 100%;
+    font-weight: bold;
+}
+.itask{
+    font-size: 30px;
+    font-weight: bold;   
+}
+.home,.tasks{
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.home:hover{
+    font-size: 32px;
+    transition: all 0.2s;
+}
+.tasks:hover{
+    font-size: 32px;
+    transition: all 0.2s;
+    margin-left: 5px;
+}
